@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core\Core.csproj" />
+    <ProjectReference Include="..\DemoBookStroreManagement.Domain\DemoBookStroreManagement.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
